@@ -12,5 +12,26 @@ html {
   padding: 0;
 }
 
-:root {
+.container {
+  margin: 0 auto;
+  background-color: red;
+}
+
+.container.image {
+  height: 40rem;
+  width: 40rem;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+}
+.arrow {
+  border: solid black;
+  padding: 1rem;
+  font-size: 5rem;
 }
